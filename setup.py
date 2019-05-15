@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
   name = 'webget',
-  version = '0.1',
+  version = '1.0',
   license='MIT',
   author = 'BCrazyDreamer',
   author_email = 'bcrazydreamer@gmail.com',
