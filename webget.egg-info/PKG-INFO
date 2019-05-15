@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: webget
+Version: 0.1
+Summary: Python website info api using meta data
+Home-page: https://github.com/nepsho/webget
+Author: BCrazyDreamer
+Author-email: bcrazydreamer@gmail.com
+License: MIT
+Description: WebGet
+Keywords: api,web,webget,scraping,website,website-info,python
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
