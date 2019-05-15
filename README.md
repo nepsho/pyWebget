@@ -1,7 +1,7 @@
 
 # WebGet (Python)
 
-![image](https://raw.githubusercontent.com/nepsho/nepsho.github.io/master/lib/img/webget_cover_plain.jpg)](https://pypi.org/project/webget/)
+[![image](https://raw.githubusercontent.com/nepsho/nepsho.github.io/master/lib/img/webget_cover_plain.jpg)](https://pypi.org/project/webget/)
 
 [![image](https://img.shields.io/pypi/v/webget.svg?style=plastic&label=WebGet&color=success)](https://pypi.org/project/webget/)
 [![image](https://img.shields.io/pypi/l/webget.svg?style=plastic&color=orange)](https://github.com/nepsho/pyWebget/blob/master/License.txt)
