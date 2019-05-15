@@ -1,6 +1,5 @@
 
-Requests: HTTP for Humans™
-==========================
+# WebGet (Python)
 
 [![image](https://img.shields.io/pypi/v/webget.svg?style=plastic)](https://pypi.org/project/webget/)
 [![image](https://img.shields.io/pypi/l/webget.svg?style=plastic)](https://github.com/nepsho/pyWebget/blob/master/License.txt)
@@ -22,7 +21,7 @@ pip install webget
 ```python
 >>> result = webget.getHtml("https://nepsho.github.io/example/meta_tags.html")
 ```
-```json
+```js
 {
 	'success': True,
 	'html': 'Html of website'
@@ -32,7 +31,7 @@ pip install webget
 ```python
 >>> result = webget.getImages("https://nepsho.github.io/example/meta_tags.html")
 ```
-```json
+```js
 {
 	'success': True,
 	'images': [ArrayOfImagesOnWebsite]
@@ -42,7 +41,7 @@ pip install webget
 ```python
 >>> result = webget.getMeta("https://nepsho.github.io/example/meta_tags.html")
 ```
-```json
+```js
 {
 	'success': True, 
 	'logo': 'http://nepsho.github.io/lib/img/logo.png', 
