@@ -134,7 +134,7 @@ def getTitle(html):
 			if len(result.strip()) > 0:
 				return result
 	except Exception as err:
-		print(err)
+		pass
 	return ""	
 
 

@@ -14,6 +14,7 @@ headers = {
 
 errorMsg = {
 	"InvalidUrl" : "Url is invalid try with valid url",
+    "InvalidHtml" : "The url did not return any html content",
 	"httpErr" : "There is http error durring http request",
 	"sslErr"  : "There is SSL Certificate error please try with http if you are using https",
 	"unknownErr" : "There is unknown error durring http request",

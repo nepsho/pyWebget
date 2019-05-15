@@ -15,7 +15,9 @@ def WebThief(url):
 		return ErrCallBackMaker("InvalidUrl")
 	try:
 		req = requests.get(url)
-		return SuccessCallBackMaker(str(req.content))
+		if req and ("Content-Type" in req.headers) and validateHtmlContent(req.headers):
+			return SuccessCallBackMaker(str(req.content))
+		return ErrCallBackMaker("InvalidHtml")
 	except HTTPError as httpErr:
 		return ErrCallBackMaker("httpErr")
 	except SSLError as sslErr:
@@ -23,5 +25,4 @@ def WebThief(url):
 	except ConnectionError as connectionErr:
 		return ErrCallBackMaker("unreachableSite")
 	except Exception as err:
-		print(err)
 		return ErrCallBackMaker("unknownErr")

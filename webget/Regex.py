@@ -4,7 +4,9 @@ scriptContentReg = r'<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>'
 cssContentReg = r'<style\b[^<]*(?:(?!<\/>)<[^<]*)*<\/style>'
 bodyContentReg = r'<body\b[^<]*(?:(?!<\/>)<[^<]*)*<\/body>'
 
-base64Reg = r'^data:image.*$';
+htmlContentHeaderReg = r'text\/html'
+
+base64Reg = r'^data:image.*$'
 imgUrlReg = r'<img[^>]*?src=["\']([^">]+)["\'][^>]*?>'
 
 #title logo detect reg

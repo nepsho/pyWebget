@@ -1,10 +1,10 @@
 
 # WebGet (Python)
 
-[![image](https://img.shields.io/pypi/v/webget.svg?style=plastic)](https://pypi.org/project/webget/)
-[![image](https://img.shields.io/pypi/l/webget.svg?style=plastic)](https://github.com/nepsho/pyWebget/blob/master/License.txt)
+[![image](https://img.shields.io/pypi/v/webget.svg?style=plastic&label=WebGet&color=success)](https://pypi.org/project/webget/)
+[![image](https://img.shields.io/pypi/l/webget.svg?style=plastic&color=orange)](https://github.com/nepsho/pyWebget/blob/master/License.txt)
 [![image](https://img.shields.io/pypi/pyversions/webget.svg?style=plastic)](https://pypi.org/project/webget/)
-[![image](https://img.shields.io/github/contributors/nepsho/pyWebget.svg?style=plastic)](https://github.com/nepsho/webget/graphs/contributors)
+[![image](https://img.shields.io/github/contributors/nepsho/pyWebget.svg?style=plastic&color=blueviolet)](https://github.com/nepsho/webget/graphs/contributors)
 [![image](https://img.shields.io/pypi/status/webget.svg?style=plastic)](https://pypi.org/project/webget/)
 
 

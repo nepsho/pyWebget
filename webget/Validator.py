@@ -10,6 +10,17 @@ def validUrl(url):
 	except:
 		return False
 
+def validateHtmlContent(header):
+	try:
+		if header:
+			if header["Content-Type"] and isinstance(header["Content-Type"], str):
+				result = re.match(htmlContentHeaderReg, header["Content-Type"] , flags = re.I)
+				if result != None or result:
+					return True
+	except:
+		pass
+	return False
+
 def getHostName(url):
 	try:
 		result = re.match(urlPartsReg, url, flags = re.IGNORECASE)
