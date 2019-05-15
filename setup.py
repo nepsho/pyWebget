@@ -1,5 +1,5 @@
 import setuptools
-with open("README.rst", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
   name = 'webget',
@@ -17,6 +17,7 @@ setuptools.setup(
           'requests'
   ],
   classifiers=[
+    'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python',
